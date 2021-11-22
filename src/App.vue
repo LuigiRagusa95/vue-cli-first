@@ -1,15 +1,15 @@
 <template>
-	<div id="app">
-		<Title />
-	</div>
+  <div id="app">
+    <Hero />
+  </div>
 </template>
 
 <script>
-import Title from "./components/Title.vue";
+import Hero from "./components/Hero.vue";
 export default {
-	components: {
-		Title,
-	},
+  components: {
+    Hero,
+  },
 };
 </script>
 
@@ -17,19 +17,19 @@ export default {
 *,
 *::before,
 *::after {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	width: 100%;
-	height: 100%;
-	font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
 }
 
 body {
-	min-height: 100vh;
+  min-height: 100vh;
 }
 </style>
